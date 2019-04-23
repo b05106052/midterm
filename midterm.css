@@ -1,0 +1,492 @@
+@media (min-width: 1281px) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+    }
+    h1 {
+        margin: 0;
+    }
+    .info {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 40px;
+        height: 100%;
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        border-right: 3px;
+        border-right-style: solid;
+        border-right-color: gray;
+        background-color: rgb(52, 52, 52);
+        width: 250px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        margin-left: 200px;
+        margin-top: 0;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+        margin-left: 490px;
+        margin-right: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+    }
+    h1 {
+        margin: 0;
+    }
+    .info {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 40px;
+        height: 100%;
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        border-right: 3px;
+        border-right-style: solid;
+        border-right-color: gray;
+        background-color: rgb(52, 52, 52);
+        width: 250px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        margin-left: 200px;
+        margin-top: 0;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+        margin-left: 490px;
+        margin-right: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+        vertical-align: middle;
+    }
+    h1 {
+        margin: 0;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        margin-left: -40px;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+        width: max-content;
+        margin: 0 auto;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    .hobbie,
+    .experience,
+    .intro,
+    .school,
+    .record {
+        margin-left: 10px;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+        vertical-align: middle;
+    }
+    h1 {
+        margin: 0;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        margin-left: -40px;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+        width: max-content;
+        margin: 0 auto;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    .hobbie,
+    .experience,
+    .intro,
+    .school,
+    .record {
+        margin-left: 10px;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+        vertical-align: middle;
+    }
+    h1 {
+        margin: 0;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        margin-left: -40px;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+        width: max-content;
+        margin: 0 auto;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-size: 23px;
+    }
+    .hobbie,
+    .experience,
+    .intro,
+    .school,
+    .record {
+        margin-left: 10px;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    img {
+        margin: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid rgb(56, 145, 187);
+        vertical-align: middle;
+    }
+    h1 {
+        margin: 0;
+    }
+    .content {
+        background-color: rgb(219, 231, 252);
+    }
+    body {
+        background-color: rgb(82, 86, 89);
+        margin: 0;
+    }
+    h2 {
+        color: darkblue;
+        font-size: 24pt;
+    }
+    h2 :hover {
+        color: coral;
+    }
+    p {
+        color: darkblue;
+        font-size: 20pt;
+    }
+    h3 {
+        color: rgb(5, 135, 221);
+        font-size: 28pt;
+    }
+    ul {
+        margin-left: -40px;
+    }
+    li {
+        display: block;
+        color: rgb(101, 163, 182);
+        font-size: 20pt;
+        padding: 15px 0px 15px 13px;
+        width: max-content;
+        margin: 0 auto;
+    }
+    li:hover {
+        color: rgb(75, 252, 234);
+        font-weight: bold;
+    }
+    .record {
+        color: darkblue;
+    }
+    .record:hover {
+        color: coral;
+    }
+    .big {
+        margin: 0px auto;
+    }
+    hr {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-size: 20px;
+    }
+    .hobbie,
+    .experience,
+    .intro,
+    .school,
+    .record {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
