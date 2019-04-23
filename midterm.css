@@ -242,7 +242,9 @@
     .experience,
     .intro,
     .school,
-    .record {
+    .record,
+    .basic {
+        margin-right: 10px;
         margin-left: 10px;
     }
 }
@@ -321,7 +323,9 @@
     .experience,
     .intro,
     .school,
-    .record {
+    .record,
+    .basic {
+        margin-right: 10px;
         margin-left: 10px;
     }
 }
@@ -403,7 +407,9 @@
     .experience,
     .intro,
     .school,
-    .record {
+    .record,
+    .basic {
+        margin-right: 10px;
         margin-left: 10px;
     }
 }
@@ -485,7 +491,8 @@
     .experience,
     .intro,
     .school,
-    .record {
+    .record,
+    .basic {
         margin-left: 10px;
         margin-right: 10px;
     }
